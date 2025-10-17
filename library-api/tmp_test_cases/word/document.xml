@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p>
+      <w:r>
+        <w:rPr><w:b/></w:rPr>
+        <w:t>Hotel Management API Test Cases</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Record each execution of Postman and PHPUnit scenarios.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3000"/>
+        <w:gridCol w:w="1500"/>
+        <w:gridCol w:w="4000"/>
+        <w:gridCol w:w="1200"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Test Name</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Time</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Details</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:rPr><w:b/></w:rPr><w:t>Status</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>POST /api/rooms (valid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:00</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Payload accepted, room created.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>POST /api/rooms (invalid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:05</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Validation errors returned as expected.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/rooms</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:07</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Room list retrieved with related bookings.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/rooms/{id}</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:08</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Specific room details returned.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/rooms/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:09</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Received 404 for non-existent room.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/rooms/{id} (valid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:11</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Room attributes updated successfully.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/rooms/{id} (invalid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:12</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Validation rejected bad payload.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/rooms/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:13</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Received 404 when updating missing room.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>DELETE /api/rooms/{id}</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:14</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Room deleted and cascade removed bookings.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>DELETE /api/rooms/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:15</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Received 404 when deleting missing room.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/bookings</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:16</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Booking list returned with room relation.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>POST /api/bookings (valid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:17</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Booking created for reserved room.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>POST /api/bookings (invalid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:18</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Validation rejected missing fields.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/bookings/{id}</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:19</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Individual booking payload confirmed.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>GET /api/bookings/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:20</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Received 404 for missing booking.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/bookings/{id} (valid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:21</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Booking updated with new dates and status.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/bookings/{id} (invalid)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:22</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Validation blocked inconsistent payload.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>PUT /api/bookings/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:23</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>404 returned while updating missing booking.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>DELETE /api/bookings/{id}</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:24</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Booking removed successfully.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>DELETE /api/bookings/{id} (missing)</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:25</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>404 returned while deleting missing booking.</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="3000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>php artisan test</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1500" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>2025-10-17 09:30</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Ran full PHPUnit feature suite (22 assertions).</w:t></w:r></w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr><w:tcW w:w="1200" w:type="dxa"/></w:tcPr>
+          <w:p><w:r><w:t>Pass</w:t></w:r></w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p/>
+    <w:sectPr>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:cols w:space="708"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
