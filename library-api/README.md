@@ -1,43 +1,44 @@
 # Hotel Management API
 
-Backend API for managing hotel rooms and bookings. The project is built with Laravel 12 and exposes RESTful CRUD endpoints for `rooms` and `bookings`, includes feature test coverage, Postman requests, and seed data for quick local setup.
+API Backend để quản lý phòng khách sạn và đặt phòng. Dự án được xây dựng với Laravel 12 và cung cấp các RESTful CRUD endpoints cho `rooms` và `bookings`, bao gồm coverage test toàn diện, Postman requests, và seed data để setup local nhanh chóng.
 
-## Requirements
+## Yêu cầu hệ thống
 - PHP 8.2+
 - Composer
-- MySQL 8 (or compatible service)
+- MySQL 8 (hoặc tương thích)
 
-## Setup
-1. Install dependencies:
+## Cài đặt và chạy
+
+1. Cài đặt dependencies:
    ```bash
    composer install
    ```
-2. Copy the environment file and configure database credentials:
+2. Sao chép file environment và cấu hình database:
    ```bash
    cp .env.example .env
    ```
-   Update the `DB_*` values in `.env` for your MySQL instance.
-3. Generate the application key:
+   Cập nhật các giá trị `DB_*` trong `.env` cho MySQL instance của bạn.
+3. Tạo application key:
    ```bash
    php artisan key:generate
    ```
-4. Run database migrations and seed sample data:
+4. Chạy database migrations và seed sample data:
    ```bash
    php artisan migrate --seed
    ```
-5. Run the feature test suite:
+5. Chạy bộ test feature:
    ```bash
    php artisan test
    ```
-6. Serve the API:
+6. Khởi động API server:
    ```bash
    php artisan serve
    ```
 
-## Postman Collection
+## Bộ sưu tập Postman
 - Import `postman/hotel_management_api.postman_collection.json`.
-- Set the `baseUrl` collection variable if the API is not served from `http://localhost:8000`.
-- Execute the requests in order: create a room, then bookings. The collection captures both success and validation scenarios.
+- Set biến collection `baseUrl` nếu API không serve từ `http://localhost:8000`.
+- Thực hiện requests theo thứ tự: tạo room trước, sau đó tạo bookings. Bộ sưu tập bao gồm cả success và validation scenarios.
 
-## Test Case Log
-- Update `test_cases.docx` with execution details (timestamp, request, scenario, status) whenever you run Postman or PHPUnit suites. A starter document is provided in the project root.
+## Nhật ký Test Case
+- Cập nhật `test_cases.docx` với chi tiết thực hiện (timestamp, request, scenario, status) mỗi khi chạy Postman hoặc PHPUnit suites. File starter đã được cung cấp trong project root.
