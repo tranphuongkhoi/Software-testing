@@ -1,6 +1,6 @@
 # Hotel Management API 
 
-API Backend để quản lý phòng khách sạn và đặt phòng. Dự án này triển khai đầy đủ Laravel API backend với các thao tác CRUD hoàn chỉnh, validation toàn diện, testing PHPUnit, và bộ sưu tập Postman cho bài tập môn Software Testing.
+API Backend để quản lý phòng khách sạn và đặt phòng.
 
 ## 📋 Tổng Quan Bài Tập
 Dự án này hoàn thành tất cả yêu cầu của bài tập kiểm tra Laravel Backend API Unit Test:
