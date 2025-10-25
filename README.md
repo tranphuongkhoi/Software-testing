@@ -1,4 +1,4 @@
-# Hotel Management API - Bài Tập Kiểm Tra Laravel Backend Unit Test
+# Hotel Management API 
 
 API Backend để quản lý phòng khách sạn và đặt phòng. Dự án này triển khai đầy đủ Laravel API backend với các thao tác CRUD hoàn chỉnh, validation toàn diện, testing PHPUnit, và bộ sưu tập Postman cho bài tập môn Software Testing.
 
@@ -168,8 +168,6 @@ File `test_cases.docx` chứa nhật ký thực hiện chi tiết cho:
 - `postman/hotel_management_api.postman_collection.json`
 
 **Documentation:**
-- `test_cases.docx` (file chấm điểm chính)
-- `README.md` (file này)
-
-
+- `test_cases.docx`
+- `README.md` 
 ---
