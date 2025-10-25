@@ -2,14 +2,6 @@
 
 API Backend để quản lý phòng khách sạn và đặt phòng.
 
-## 📋 Tổng Quan Bài Tập
-Dự án này hoàn thành tất cả yêu cầu của bài tập kiểm tra Laravel Backend API Unit Test:
-- ✅ Laravel API với CRUD Rooms và Bookings
-- ✅ Validation và xử lý lỗi đầy đủ
-- ✅ PHPUnit feature tests (22 assertions)
-- ✅ Bộ sưu tập Postman với các kịch bản test
-- ✅ Tài liệu test case hoàn chỉnh
-
 ## 🏗️ Cấu Trúc Dự Án
 
 ```
@@ -43,7 +35,7 @@ library-api/
 ├── .env.example                      # Template environment
 ├── composer.json                     # Dependencies PHP
 ├── phpunit.xml                       # Cấu hình test
-└── test_cases.docx                   # Tài liệu test (file chính)
+└── test_cases.docx                   # Tài liệu test
 ```
 
 ## 🔧 Yêu Cầu Hệ Thống
